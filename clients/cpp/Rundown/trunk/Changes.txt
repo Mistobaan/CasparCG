@@ -1,0 +1,17 @@
+CasparCG Client 2.0 Beta 1
+==========================
+
+- Added support for file recording using qtrle, dnxhd, prores, ffvhuff rawvideo, h264.
+- Added support for image scroll producer.
+- Added support for DeckLink input.
+- Added support for transactional mixer commands using commit/defer.
+- Added support for GPI/GPO on groups and individual items.
+	- Code for two sample project is in the repository (arduino/iocore).
+
+
+CasparCG Client 2.0 Alpha 1
+===========================
+
+- Initial version.
+
+	

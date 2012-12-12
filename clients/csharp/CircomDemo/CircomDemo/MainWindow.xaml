@@ -1,0 +1,47 @@
+﻿<!-- 
+/* Copyright (c) 2012 Robert Nagy and Peter Karlsson
+*
+* This file is part of CasparCG CircomDemo.
+*
+* CircomDemo is free software: you can redistribute it and/or modify
+* it under the terms of the GNU General Public License as published by
+* the Free Software Foundation, either version 3 of the License, or
+* (at your option) any later version.
+*
+* CircomDemo is distributed in the hope that it will be useful,
+* but WITHOUT ANY WARRANTY; without even the implied warranty of
+* MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+* GNU General Public License for more details.
+*
+* You should have received a copy of the GNU General Public License
+* along with CircomDemo. If not, see <http://www.gnu.org/licenses/>.
+*
+* Author: Robert Nagy and Peter Karlsson
+*/
+ -->
+<Window x:Class="CircomDemo.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="CasparCG" WindowStyle="None" WindowState="Maximized">
+    <Grid  Background="Black">
+        <Grid.RowDefinitions>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="Auto"/>
+        </Grid.RowDefinitions>
+        <MediaElement x:Name="MediaEL" LoadedBehavior="Manual" Height="Auto" Grid.Row="0"/>
+        <StackPanel Orientation="Horizontal" Grid.Row="1" HorizontalAlignment="Center" Height="60" Margin="12">
+            <StackPanel Orientation="Horizontal" VerticalAlignment="Center" Margin="4">
+                <TextBlock FontSize="16" Margin="2" Text="Name: " Foreground="White" VerticalAlignment="Center" FontWeight="Bold"></TextBlock>
+                <TextBox x:Name="txtName" FontSize="16" Width="200" Margin="2" FontWeight="Bold" VerticalContentAlignment="Center" />
+            </StackPanel>
+            <Button  x:Name="btnRecord" Width="70"  Height="Auto" Content="Record" Click="btnRecord_Click" Margin="2" FontWeight="Bold" FontSize="16" />
+            <Button  x:Name="btnStop"   Width="70"  Height="Auto" Content="Stop" Click="btnStop_Click" Margin="2" FontSize="16" FontWeight="Bold" />
+            <Button  x:Name="btnPlay"   Width="70"  Height="Auto" Content="Play" Click="btnPlay_Click" Margin="2" FontSize="16" FontWeight="Bold" />
+            <StackPanel Orientation="Horizontal" VerticalAlignment="Center" Margin="4">
+                <TextBlock FontSize="16" Margin="2" Text="E-mail: " Foreground="White" VerticalAlignment="Center" FontWeight="Bold"></TextBlock>
+                <TextBox x:Name="txtEmail" FontSize="16" Width="200" Margin="2" FontWeight="Bold" VerticalContentAlignment="Center" />
+            </StackPanel>
+            <Button  x:Name="btnEmail"  Width="70"  Height="Auto" Content="Send" Click="btnSendToMail_Click" Margin="2" IsEnabled="false" FontSize="16" FontWeight="Bold" />
+        </StackPanel>
+    </Grid>
+</Window>

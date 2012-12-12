@@ -1,0 +1,15 @@
+/*
+ * QWidget
+ */
+QWidget
+{
+    font-size: 12px;
+}
+
+/*
+ * QHeaderView
+ */
+QHeaderView::section
+{
+    padding: 5px;
+}

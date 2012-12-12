@@ -1,0 +1,12 @@
+﻿<?xml version='1.0' encoding='utf-8'?>
+<SettingsFile xmlns="http://schemas.microsoft.com/VisualStudio/2004/01/settings" CurrentProfile="(Default)" GeneratedClassNamespace="CircomDemo.Properties" GeneratedClassName="Settings">
+  <Profiles />
+  <Settings>
+    <Setting Name="MediaPath" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">\\192.168.0.199\casparcg\_media\</Value>
+    </Setting>
+    <Setting Name="CasparHost" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">192.168.0.199</Value>
+    </Setting>
+  </Settings>
+</SettingsFile>

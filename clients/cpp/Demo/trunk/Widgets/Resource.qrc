@@ -1,0 +1,43 @@
+<RCC>
+    <qresource prefix="/Forms">
+        <file>MainWindow.ui</file>
+        <file>BigFourWidget.ui</file>
+        <file>RecorderWidget.ui</file>
+        <file>SqueezeWidget.ui</file>
+        <file>AboutDialog.ui</file>
+        <file>FrameWidget.ui</file>
+    </qresource>
+    <qresource prefix="/Graphics">
+        <file>Images/ArrowDown.png</file>
+        <file>Images/ArrowDownDisabled.png</file>
+        <file>Images/ArrowUp.png</file>
+        <file>Images/ArrowUpDisabled.png</file>
+        <file>Images/CheckboxChecked.png</file>
+        <file>Images/CheckboxCheckedHover.png</file>
+        <file>Images/CheckboxCheckedPressed.png</file>
+        <file>Images/CheckboxUnchecked.png</file>
+        <file>Images/CheckboxUncheckedHover.png</file>
+        <file>Images/CheckboxUncheckedPressed.png</file>
+        <file>Images/RadiobuttonChecked.png</file>
+        <file>Images/RadiobuttonCheckedHover.png</file>
+        <file>Images/RadiobuttonCheckedPressed.png</file>
+        <file>Images/RadiobuttonUnchecked.png</file>
+        <file>Images/RadiobuttonUncheckedHover.png</file>
+        <file>Images/RadiobuttonUncheckedPressed.png</file>
+        <file>Images/CasparCG.png</file>
+        <file>Images/ArrowLeft.png</file>
+        <file>Images/ArrowLeftDisabled.png</file>
+        <file>Images/ArrowRight.png</file>
+        <file>Images/ArrowRightDisabled.png</file>
+        <file>Images/Picture.png</file>
+        <file>Images/Record.png</file>
+        <file>Images/Recording.png</file>
+        <file>Images/Connection.png</file>
+    </qresource>
+    <qresource prefix="/Appearances">
+        <file>Stylesheets/Default.css</file>
+        <file>Stylesheets/Extended.css</file>
+        <file>Stylesheets/Windows.css</file>
+        <file>Stylesheets/Unix.css</file>
+    </qresource>
+</RCC>

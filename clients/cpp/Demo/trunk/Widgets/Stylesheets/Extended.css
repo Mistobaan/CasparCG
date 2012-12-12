@@ -1,0 +1,56 @@
+/*
+ * General
+ */
+ #labelPicture
+ {
+     /*background-color: rgba(74, 74, 74, 255);*/
+ }
+
+/*
+ * MainWindow
+ */
+#MainWindow > #centralwidget
+{
+    border-bottom-color: rgba(65, 65, 65, 255);
+    border-bottom-width: 1px;
+    border-radius: 0px;
+}
+#frameWidgets
+{
+    /*background-color: rgba(74, 74, 74, 255);*/
+    border-bottom-right-radius: 0px;
+    border-top-right-radius: 0px;
+    border-width: 1px;
+}
+
+/*
+ * RecorderWidget
+ */
+#lcdNumber
+{
+    color: rgba(200, 65, 65, 255);
+}
+#lcdNumberShadowHour
+{
+    color: rgba(68, 68, 68, 128);
+}
+#lcdNumberShadowMinute
+{
+    color: rgba(68, 68, 68, 128);
+}
+#lcdNumberShadowSecond
+{
+    color: rgba(68, 68, 68, 128);
+}
+#lcdNumberShadowMillisecond
+{
+    color: rgba(68, 68, 68, 128);
+}
+
+/*
+ * FrameWidget
+ */
+#labelCommands, #labelResponse
+{
+    font-weight: bold;
+}
